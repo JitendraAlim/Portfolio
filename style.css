@@ -15,12 +15,13 @@ body{
 
 .navbar{
   background-color: #263643;
-  padding: 0 !important;
+  padding: 0 50px !important;
+  height: 75px;
 }
 
 .navbar-brand img{
   height: 50px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .navbar-nav li{
@@ -32,6 +33,12 @@ body{
   font-weight: 750;
   float: right;
   text-align: left;
+  transition: 0.5s ease;
+}
+
+ul li a:hover{
+  background-color: #27ae60;
+  color: #000;
 }
 
 .fa-bars{
@@ -46,10 +53,13 @@ body{
 /*---------- Banner Section ----------*/
 
 #banner{
-  background-image: url(https://wallpapercave.com/wp/wp4748439.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://wallpapercave.com/wp/wp4748439.jpg);
   color: #fff;
-  padding-top: 5%;
+  padding-top: 7.5%;
   padding-bottom: 15%;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .promo-header1{
@@ -64,4 +74,52 @@ body{
 
 .cover-img{
   width: 300px;
+}
+
+
+/*---------- Footer Section -----------*/
+
+#footer{
+  max-width: 100%;
+  height: auto;
+  background: #2c3e50;
+  padding: 25px 10%;
+}
+
+.footer-social-icons ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-social-icons ul li{
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  margin: 0 10px;
+  border-radius: 100%;
+  background: #27ae60;
+}
+
+.footer-social-icons{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.footer-social-icons ul li a{
+  color: #2c3e50;
+  font-size: 35px;
+}
+
+.footer-social-icons ul li a i{
+  line-height: 75px;
+}
+
+.copyrights{
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
 }
