@@ -16,7 +16,7 @@ body{
 .navbar{
   background-color: #263643;
   padding: 0 50px !important;
-  height: 75px;
+  height: auto;
 }
 
 .navbar-brand img{
