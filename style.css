@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  background-color: #263643;
+  padding: 0 !important;
+}
+
+.navbar-brand img{
+  height: 50px;
+  padding-left: 20px;
+}
+
+.navbar-nav li{
+  padding: 0 15px;
+}
+
+.navbar-nav li a{
+  color: #fff !important;
+  font-weight: 750;
+  float: right;
+  text-align: left;
+}
+
+.fa-bars{
+  color: #fff;
+  font-size: 30px !important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+/*---------- Banner Section ----------*/
+
+#banner{
+  background-image: url(https://wallpapercave.com/wp/wp4748439.jpg);
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+
+.promo-header1{
+  font-size: 100px;
+  font-weight: 700px;
+  margin-top: 100px;
+}
+
+.promo-header2{
+  font-size: 50px;
+}
+
+.cover-img{
+  width: 300px;
+}
